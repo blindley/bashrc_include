@@ -33,3 +33,4 @@ function sibd() {
     local targetDirectory="$(find .. -maxdepth 1 -type d | awk -v thisDirectory="$thisDirectory" -- "$awkScript")"
     pushd "$targetDirectory"
 }
+
